@@ -1,0 +1,161 @@
+@font-face {
+	font-family: champagne;
+	src: url('../fonts/Champagne & Limousines Bold.ttf');
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(136, 136, 60);
+}
+
+.cont {
+	width: 100%;
+	height: 100%;
+}
+
+.firstPageCont {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+.back {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.monitor {
+	position: absolute;
+	right: -15%;
+	top: 2%;
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	transform: rotate(10deg);
+	-webkit-transition: right 0.5s;
+	-moz-transition: right 0.5s;
+	transition: right 0.5s;
+}
+
+.monitor.init {
+	right: -100%;
+}
+
+.keyboard {
+	position: absolute;
+	bottom: 7%;
+	right: -3%;
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	transform: rotate(10deg);
+	-webkit-transition: right 1s;
+	-moz-transition: right 1s;
+	transition: right 1s;
+}
+
+.keyboard.init {
+	right: -100%;
+}
+
+.earphone {
+	position: absolute;
+	left: -3%;
+	-webkit-transform: rotate(100deg);
+	-moz-transform: rotate(100deg);
+	transform: rotate(100deg);
+	-webkit-transition: left 1s;
+	-moz-transition: left 1s;
+	transition: left 1s;
+}
+
+.earphone.init {
+	left: -100%;
+}
+
+.docs {
+	position: absolute;
+	top: -45%;
+	left: -10%;
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	transform: rotate(30deg);
+	-webkit-transition: left 0.5s;
+	-moz-transition: left 0.5s;
+	transition: left 0.5s;
+}
+
+.docs.init {
+	left: -100%;
+}
+
+.title {
+	position: absolute;
+	color: white;
+	font-family: champagne;
+	top: 20%;
+	width: 100%;
+	text-align: center;
+}
+
+.mainTitle {
+	font-size: 11em;
+	display: block;
+	text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.subTitle {
+	font-size: 2em;
+	display: block;
+	color: rgba(0,0,0,0.3);
+	margin-top: -10px;
+}
+
+.scrollDown {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	color: white;
+	font-family: champagne;
+	font-size: 1.5em;
+}
+
+.secondPageCont {
+	position: relative;
+	height: 100%;
+	text-align: center;
+	padding: 0px 20px;
+	padding-top: 20%;
+}
+
+.secondPageCont .notice {
+	font-family: champagne;
+	color: white;
+	font-size: 5em;
+}
+
+.smiley {
+	display: inline-block;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+}

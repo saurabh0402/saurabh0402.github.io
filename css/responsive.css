@@ -1,0 +1,15 @@
+@media(max-width: 1100px) {
+	.monitor, .keyboard, .earphone, .docs {
+		display: none;
+	}
+}
+
+@media(max-width: 768px) {
+	.mainTitle {
+		font-size: 7em;
+	}
+
+	.secondPageCont .notice {
+		font-size: 3em;
+	}
+}

@@ -1,0 +1,41 @@
+<html>
+<body data-0p = "background-color: rgb(0,0,0);" data-50p = "background-color: rgb(255,255,255);">
+
+	<script src = "./js/skrollr.min.js">  </script>
+    <script src = "./js/enquire.min.js">  </script>
+    <script>
+    	(function(){
+
+  /* SKROLLR SETUP */
+
+  function adjust(){
+    var width = window.innerWidth,
+      height = window.innerHeight;
+
+    if(width >= 750){
+      var s = skrollr.init({
+        forceHeight: true
+      });
+    }
+
+    else {
+      var s = skrollr.init();
+      s.destroy();
+    }
+  }
+
+  var adjustObj = {
+    match: function(){
+      adjust();
+    },
+    unmatch: function(){
+      adjust();
+    }
+  };
+
+  enquire.register("screen and (min-width: 750px)", adjustObj, false);
+
+})();
+    </script>
+</body>
+</html>

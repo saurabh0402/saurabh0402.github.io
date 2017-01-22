@@ -1,18 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <title>Hello World:)</title>
-    <link rel = "stylesheet" type = "text/css" href = "./Style/main.css">
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel = "stylesheet" type = "text/css" href = "./css/main.css">
+     <link rel = "stylesheet" type = "text/css" href = "./css/responsive.css">
+    <title> Saurabh Kumar | Portfolio </title>
   </head>
-  <body>
-    <div id = "divLoad1"> </div>
-    <div id = "divLoad2"> </div>
-    <div id = "divLoad3"> </div>
-    <div id = "divLoad4"> </div>
-    <div id = "divLoad5"> </div>
-    <div id = "divLoad6"> </div>
-    <div id = "divLoad7"> </div>
-    <div id = "divLoad8"> </div><br>
-    <div id="divText">The website is under consruction!</div>
-    <script src = "./Script/main.js"></script>
+  <body data-0p = "background-color:rgb(136,136,60);" data-100p = "background-color:rgb(134,45,45);">
+
+    <div class = "cont">
+      <!-- A first page container is needed because it will act as the relative container for the first page
+           so that the next pages get placed after it and not above it as they would have if it would have
+           been absolute. -->
+      <div class = "firstPageCont">
+        <div class = "back">
+
+          <div class = "keyboard init" data-0p = "right: -3%" data-100p = "right: -50%">
+            <img src = "./images/keyboard1.png">
+          </div>
+          <div class = "monitor init" data-0p = "right: -15%" data-50p = "right: -50%">
+            <img src = "./images/laptop.png">
+          </div>
+          <div class = "earphone init" data-0p = "left: -3%" data-50p = " left: -25%">
+            <img src = "./images/music-player.png">
+          </div>
+
+        </div>
+
+        <div class = "title">
+          <span class = "mainTitle">Hello </span>
+          <span class = "subTitle"> I am Saurabh </span>
+        </div>
+        <div class = "scrollDown">
+          Scroll Down<br>
+          <img src = "./images/down.png" width = "50">
+        </div>
+
+      </div>
+
+      <div class = "secondPageCont">
+        <!-- Putting it in first page, hides a part of it sice overflow is set hidden!
+             So, putting it in second page is a way out ;) -->
+        <div class = "docs init" data-0p = "left: -10%;" data-100p = "left: -60%">
+          <img src = "./images/documents.png" width = "70%">
+        </div>
+        <span class = "notice"> Contents still under production <br> <span class = "smiley"> :) </span></span>
+      </div>
+
+    </div>
+
+    <script src = "./js/skrollr.min.js">  </script>
+    <script src = "./js/enquire.min.js">  </script>
+    <script src = "./js/main.js">  </script>
   </body>
+</html>
