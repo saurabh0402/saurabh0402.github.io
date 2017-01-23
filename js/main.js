@@ -6,7 +6,7 @@
     var width = window.innerWidth,
       height = window.innerHeight;
 
-    if(width >= 750){
+    if(width >= 1100){
       var s = skrollr.init({
         forceHeight: false
       });
@@ -35,7 +35,7 @@
       document.getElementsByClassName("keyboard")[0].className = "keyboard";
       document.getElementsByClassName("earphone")[0].className = "earphone";
       document.getElementsByClassName("docs")[0].className = "docs";
-      enquire.register("screen and (min-width: 750px)", adjustObj, false);
+      enquire.register("screen and (min-width: 1100px)", adjustObj, false);
     }, 300);
   }
 

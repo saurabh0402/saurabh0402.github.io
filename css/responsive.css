@@ -2,6 +2,43 @@
 	.monitor, .keyboard, .earphone, .docs {
 		display: none;
 	}
+
+	.college img {
+		display: none;
+	}
+
+	.secondPageCont {
+		text-align: center;
+		height: auto;
+	}
+
+	.college img {
+		display: none;
+	}
+
+	.college {
+		position: relative;
+		top: 0px;
+		width: 100%;
+	}
+
+	.details {
+		position: relative;
+		left: 0px;
+		top: 0px;
+		display: inline-block;
+		height: auto;
+		width: 70%;
+		padding-bottom: 40px;
+	}
+
+	.thirdPageContent {
+		position: relative;top: 0px;
+	}
+
+	.pageName {
+		color: rgb(230, 230, 230);
+	}
 }
 
 @media(max-width: 768px) {
@@ -9,7 +46,31 @@
 		font-size: 7em;
 	}
 
-	.secondPageCont .notice {
+	.notice {
 		font-size: 3em;
+	}
+
+	.details {
+		width: 90%;
+	}
+
+	.pageName {
+		font-size: 1em;
+	}
+
+	.aCourse .image {
+		display: none;
+	}
+
+	.aCourse .text.left, .aCourse .text.right {
+		text-align: left;
+	}
+
+	.details .courseName {
+		font-size: 1.2em;
+	}
+
+	.schoolName, .major, .marks, .year {
+		font-size: 0.8em;
 	}
 }

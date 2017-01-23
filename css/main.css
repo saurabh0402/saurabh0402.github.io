@@ -28,6 +28,8 @@ body {
 	height: 100%;
 }
 
+/* LANDING PAGE */
+
 .firstPageCont {
 	position: relative;
 	top: 0px;
@@ -139,7 +141,103 @@ body {
 	font-size: 1.5em;
 }
 
+/* EDUCATION PAGE */
+
 .secondPageCont {
+	position: relative;
+	height: 100%;
+	padding: 0px 20px;
+	padding-top: 20%;
+}
+
+.college {
+	width: 50%;
+	display: inline-block;
+	position: absolute;
+	top: 20%;
+	text-align: center;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.college img {
+	width: 50%;
+}
+
+.pageName {
+	font-family: champagne;
+	font-size: 1.5em;
+	color: rgb(174, 169, 154);
+	padding: 10px;
+	-webkit-transition: all 0.2s;
+}
+
+.pageName .pageNameText{
+	font-size: 2em;
+}
+
+.details {
+	width: 40%;
+	display: inline-block;
+	height: 90%;
+	position: absolute;
+	left: 55%;
+	top: 5%;
+	font-family: champagne;
+	background-color:  rgb(230,230,230);
+	border-radius: 5px;
+	border: 15px solid rgba(0,0,0,0.3);
+}
+
+.aCourse {
+	width: 100%;
+	padding: 0px 30px;
+	margin-top: 10%;
+	overflow: hidden;
+}
+
+.details .courseName {
+	font-size: 1.5em;
+	margin-bottom: 5px;
+	color: rgba(0,0,0,0.7);
+}
+
+.schoolName, .major, .marks, .year {
+	color: rgb(115, 115, 115);
+	padding: 2px 0px;
+	font-size: 1em;
+}
+
+.aCourse .text {
+	display: inline-block;
+	width: 70%;
+	position: relative;
+}
+
+.aCourse .text.left {
+	text-align: left;
+	-webkit-transition: all 0.5s;
+}
+
+.aCourse .text.right {
+	text-align: right;
+	-webkit-transition: all 0.5s;
+}
+
+.aCourse .image {
+	display: inline-block;
+	width: 28%;
+	position: relative;
+}
+
+.aCourse .image img {
+	width: 80%;
+}
+
+/* SKILLS PAGE */
+
+.thirdPageCont {
 	position: relative;
 	height: 100%;
 	text-align: center;
@@ -147,7 +245,11 @@ body {
 	padding-top: 20%;
 }
 
-.secondPageCont .notice {
+/*
+	TEMP CSS
+*/
+
+.notice {
 	font-family: champagne;
 	color: white;
 	font-size: 5em;
