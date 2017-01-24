@@ -251,17 +251,21 @@ body {
 	position: relative;
 	height: 100%;
 	text-align: center;
+	overflow: hidden;
 }
 
 .screen {
 	display: inline-block;
 	width: 80%;
 	height: 90%;
-	background-color: #f2f2f2;
 	position: absolute;
 	top: 5%;
 	left: 10%;
 	border-radius: 10px 10px 0px 0px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	overflow: hidden;
 }
 
 .topbar {
@@ -355,6 +359,128 @@ body {
 	padding: 2px 20px;
 	font-family: champagne;
 	font-size: 0.7em;
+}
+
+.nextSlide {
+	position: absolute;
+	right: 0px;
+	display: inline-block;
+	width: 10%;
+	text-align: center;
+	height: 100%;
+}
+
+.previousSlide {
+	position: absolute;
+	left: 0px;
+	display: inline-block;
+	width: 10%;
+	text-align: center;
+	height: 100%;
+}
+
+.nextSlide img, .previousSlide img {
+	position: absolute;
+	top: 45%;
+	left: 35%;
+	width: 30%;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+	cursor: pointer;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.previousSlide img:hover {
+	width: 40%;
+	top: 44%;
+}
+
+.nextSlide img:hover {
+	width: 40%;
+	top: 44%;
+}
+
+.contentLoc {
+	position: relative;
+	width: 100%;
+}
+
+.projectContent {
+	position: absolute;
+}
+
+.projectContent.active {
+	left: 0px;
+}
+
+.projectContent.left {
+	left: -200%;
+}
+
+.projectContent.right {
+	left: 100%;
+}
+
+.contentLoc img {
+	width: 100%;
+}
+
+.contentLoc .overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0,0,0,0.9);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	opacity: 0;
+	text-align: center;
+}
+
+.overlay img {
+	width: 70px;
+}
+
+.overlay:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.overlayContent {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	color: #e3e3e3;
+	font-family: champagne;
+	font-size: 1.4em;
+}
+
+.overlay .link {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+.overlay:hover .link {
+	display: inline-block;
+}
+
+.mobImg {
+	display: none;
+	height: 100%;
+	width: auto;
+}
+
+.mobile {
+	display: none;
 }
 
 /*
