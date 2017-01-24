@@ -245,6 +245,118 @@ body {
 	padding-top: 20%;
 }
 
+/* PROJECTS PAGE */
+
+.fourthPageCont {
+	position: relative;
+	height: 100%;
+	text-align: center;
+}
+
+.screen {
+	display: inline-block;
+	width: 80%;
+	height: 90%;
+	background-color: #f2f2f2;
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.topbar {
+	width: 100%;
+	height: 40px;
+	background-color: rgb(71,107,107);
+	border-radius: 10px 10px 0px 0px;
+	text-align: left;
+	padding: 0px 20px;
+}
+
+.topbar .circle {
+	width: 15px;
+	height: 15px;
+	border-radius: 10px;
+	background-color: white;
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 12.5px;
+}
+
+.topbar .circle.circle1 {
+	background-color: rgb(255,77,77);
+}
+
+.topbar .circle.circle2 {
+	background-color: rgb(204,255,51);
+}
+
+.topbar .circle.circle3 {
+	background-color: rgb(92,214,92);
+}
+
+.topbarTitle {
+	color: white;
+	font-family: champagne;
+	display: inline-block;
+	padding: 0px 30px;
+}
+
+.tab {
+	width: 100%;
+	height: 30px;
+	background-color: rgba(190,190,190,1);
+	padding: 5px 0px 0px 15px;
+	text-align: left;
+}
+
+.tab .aTab {
+	border: 1px solid rgb(148,148,148);
+	border-bottom: none;
+	height: 100%;
+	font-family: champagne;
+	font-size: 0.8em;
+	padding: 5px 20px;
+	border-radius: 5px 5px 0px 0px;
+	display: inline-block;
+	text-align: center;
+}
+
+.aTab.active {
+	background-color: rgb(224, 235, 235);
+	width: 17%;
+}
+
+.aTab.nonActive {
+	width: auto;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.linkField {
+	background-color: rgb(224, 235, 235);
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid rgb(148,148,148);
+	text-align: left;
+	padding: 10px 10px;
+}
+
+.linkField img {
+	height: 100%;
+	margin-right: 15px;
+}
+
+.linkField .locationBar {
+	width: 80%;
+	display: inline-block;
+	background-color: white;
+	height: 100%;
+	margin-left: 10px;
+	padding: 2px 20px;
+	font-family: champagne;
+	font-size: 0.7em;
+}
+
 /*
 	TEMP CSS
 */
