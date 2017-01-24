@@ -42,7 +42,9 @@
   /* The project page slide show */
 
   let active = 0,
-      elems = document.getElementsByClassName("projectContent");
+      elems = document.getElementsByClassName("projectContent"),
+      titleText = ["YouTube Downloader", "QandA", "Portfolio", "Hill'ffair"],
+      activeTab = document.getElementsByClassName("active")[0];
 
   function next(){
     if(active < (elems.length - 1)){
@@ -51,6 +53,7 @@
       elems[active].className = "projectContent rightSlide";
       ++active;
       elems[active].className = "projectContent activeSlide";
+      activeTab.innerHTML = titleText[active];
     }
 
     if(active == elems.length - 1)
@@ -64,6 +67,7 @@
       elems[active].className = "projectContent leftSlide";
       --active;
       elems[active].className = "projectContent activeSlide";
+      activeTab.innerHTML = titleText[active];
     }
 
     if(active == 0)
