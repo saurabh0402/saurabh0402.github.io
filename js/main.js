@@ -39,4 +39,38 @@
     }, 300);
   }
 
+  /* The project page slide show */
+
+  let active = 0,
+      elems = document.getElementsByClassName("projectContent");
+
+  function next(){
+    if(active < (elems.length - 1)){
+      if(active == 0)
+        document.getElementsByClassName("previousSlide")[0].className = "previousSlide";
+      elems[active].className = "projectContent rightSlide";
+      ++active;
+      elems[active].className = "projectContent activeSlide";
+    }
+
+    if(active == elems.length - 1)
+      document.getElementsByClassName("nextSlide")[0].className = "nextSlide disabled";
+  }
+
+  function prev(){
+    if(active > (0)){
+      if(active == elems.length - 1)
+        document.getElementsByClassName("nextSlide")[0].className = "nextSlide";
+      elems[active].className = "projectContent leftSlide";
+      --active;
+      elems[active].className = "projectContent activeSlide";
+    }
+
+    if(active == 0)
+      document.getElementsByClassName("previousSlide")[0].className = "previousSlide disabled";
+  }
+
+  document.getElementsByClassName("nextButton")[0].addEventListener("click", next, false);
+  document.getElementsByClassName("previousButton")[0].addEventListener("click", prev, false);
+
 })();

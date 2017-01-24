@@ -152,4 +152,8 @@
 	.previousSlide img:hover {
 		width: 70%;
 	}
+
+	.screen {
+		border: 1px solid black;
+	}
 }
