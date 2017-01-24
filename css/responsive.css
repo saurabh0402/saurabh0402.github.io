@@ -47,6 +47,14 @@
 	.linkField img {
 		height: 80%;
 	}
+
+	.tab {
+		padding: 5px 0px 0px 10px;
+	}
+
+	.tab .aTab {
+		font-size: 0.7em;
+	}
 }
 
 @media(max-width: 768px) {
@@ -123,6 +131,14 @@
 		top: -5px;
 	}
 
+	.projectContent {
+		height: 100%;
+	}
+
+	.projectContent img {
+		height: 98%;
+	}
+
 	.screen {
 		width: 70%;
 		height: 70%;
@@ -155,5 +171,16 @@
 
 	.screen {
 		border: 1px solid black;
+	}
+
+	.copyright {
+		text-align: center;
+		width: 100%;
+	}
+}
+
+@media (max-height: 550px) {
+	.mailImg {
+		display: none;
 	}
 }

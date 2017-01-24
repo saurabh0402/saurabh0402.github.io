@@ -19,8 +19,7 @@ html {
 body {
 	width: 100%;
 	height: 100%;
-	overflow: auto;
-	background-color: rgb(136, 136, 60);
+	background-color: rgb(0, 77, 102);
 }
 
 .cont {
@@ -498,6 +497,95 @@ body {
 
 .previousSlide.disabled {
 	opacity: 0.2;
+}
+
+/* CONTACT PAGE */
+
+.fifthPageCont {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.contactTop {
+	width: 100%;
+	text-align: center;
+	padding: 10% 0px 2% 0px;
+	position: relative;
+	-webkit-transition: top 0.3s;
+	-moz-transition: top 0.3s;
+	transition: top 0.3s;
+	height: 50%;
+}
+
+.mailImg {
+	position: relative;
+	bottom: 0px;
+	display: inline;
+}
+
+.mailCount {
+	width: 30px;
+	height: 30px;
+	background-color: rgb(204, 0, 0);
+	color: white;
+	border-radius: 5px;
+	font-family: champagne;
+	text-align: center;
+	padding: 5px;
+	display: inline-block;
+	position: absolute;
+	bottom: -7px;
+	right: -7px;
+}
+
+.contactBottom {
+	height: 50%;
+	width: 100%;
+	position: relative;
+}
+
+.links {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	-webkit-transition: top 0.4s;
+	-moz-transition: top 0.4s;
+	transition: top 0.4s;
+}
+
+.links img{
+	width: 50px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.links a {
+	margin-left: 10px;
+}
+
+.links img:hover {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+/*
+	Footer
+*/
+
+.copyright {
+	position: absolute;
+	bottom: 0px;
+	padding: 5px 10px;
+	color: rgba(255,255,255,0.5);
+	font-family: champagne;
+	font-size: 0.8em;
+}
+
+.copyright a {
+	color: rgba(255,255,255,0.5);
 }
 
 /*

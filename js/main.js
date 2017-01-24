@@ -77,4 +77,16 @@
   document.getElementsByClassName("nextButton")[0].addEventListener("click", next, false);
   document.getElementsByClassName("previousButton")[0].addEventListener("click", prev, false);
 
+  /* Contact page */
+
+  let count = 0;
+  function changeMessageCount(){
+    ++count;
+    document.getElementsByClassName("mailCount")[0].innerHTML = count;
+    if(count < 99)
+      setTimeout(changeMessageCount, 2000);
+  }
+
+  setTimeout(changeMessageCount, 2000);
+
 })();
