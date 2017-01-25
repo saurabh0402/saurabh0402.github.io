@@ -55,6 +55,14 @@
 	.tab .aTab {
 		font-size: 0.7em;
 	}
+
+	.skillsTop {
+		height: 50%;
+	}
+
+	.skillsTitle {
+		height: 3em;
+	}
 }
 
 @media(max-width: 768px) {
@@ -173,9 +181,43 @@
 		border: 1px solid black;
 	}
 
+	.thirdPageCont {
+		height: auto;
+		position: relative;
+		padding: 100px 0px 0px 0px;
+	}
+
+	.skillsTop {
+		height: auto;
+	}
+
+	.skillsTop img {
+		width: 40%;
+		height: auto;
+	}
+
+	.skillsBottom {
+		height: auto;
+	}
+
+	.skillsTitle {
+		font-size: 2em;
+	}
+
 	.copyright {
 		text-align: center;
 		width: 100%;
+	}
+
+	.skillset {
+		width: 70%;
+		margin: 40px;
+		position: relative;
+		min-height: 200px;
+	}
+
+	.pin {
+		top: -15%;
 	}
 }
 

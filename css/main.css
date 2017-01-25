@@ -240,8 +240,107 @@ body {
 	position: relative;
 	height: 100%;
 	text-align: center;
-	padding: 0px 20px;
-	padding-top: 20%;
+	padding: 2% 0px;
+	overflow: hidden;
+}
+
+.skillsTop {
+	height: 60%;
+	position: relative;
+	padding: 20px 0px 5% 0px;
+}
+
+.skillsTop img {
+	height: 70%;
+	width: auto;
+}
+
+.skillsTitle {
+	padding: 20px 0px;
+	font-size: 4em;
+	font-family: champagne;
+	color: white;
+}
+
+.skillsBottom {
+	height: 40%;
+	text-align: center;
+}
+
+.skillset {
+	width: 20%;
+	height: 100%;
+	display: inline-block;
+	margin: 0px 5%;
+	position: relative;
+}
+
+.skillset .backSkillset {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(31, 122, 31);
+}
+
+.skillset .foreSkillset {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(191, 255, 128);
+}
+
+.skill1 .backSkillset {
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+.skill1 .foreSkillset {
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+
+.skill2 .backSkillset {
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+
+.skill2 .foreSkillset {
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+.skill3 .backSkillset {
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+.skill3 .foreSkillset {
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+
+.pin {
+	width: 50px;
+	position: absolute;
+	z-index: 5;
+	top: -10%;
+}
+
+.pinHole {
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	z-index: 4;
+	top: 7%;
+	left: 49%;
 }
 
 /* PROJECTS PAGE */
