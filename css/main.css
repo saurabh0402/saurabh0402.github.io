@@ -343,6 +343,21 @@ body {
 	left: 49%;
 }
 
+.skillTitle {
+	font-family: champagne;
+	font-weight: bold;
+	color: rgb(0,77,102);
+	font-size: 2em;
+	margin: 10% 0px 5% 0px;
+}
+
+.skillDetails {
+	font-family: champagne;
+	font-size: 1.2em;
+	padding: 5px 0px;
+	color: rgba(0,77,102,0.8);
+}
+
 /* PROJECTS PAGE */
 
 .fourthPageCont {
