@@ -735,3 +735,7 @@ body.hiddenContent {
 	border-right: 1px solid black;
 	color: rgba(0,0,0,0.6);
 }
+
+.cv {
+	text-decoration: none;
+}
