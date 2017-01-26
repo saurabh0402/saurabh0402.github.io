@@ -31,7 +31,11 @@
 
   window.onload = function(){
     document.body.className = "shownContent";
-    document.getElementsByClassName("loaderCont")[0].style.display = "none";
+
+    setTimeout(function(){
+      document.getElementsByClassName("loaderCont")[0].style.display = "none";
+    }, 200);
+
     clearTimeout(loadTimer);
     setTimeout(function(){
       document.getElementsByClassName("monitor")[0].className = "monitor";
