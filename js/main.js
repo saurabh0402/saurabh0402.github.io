@@ -30,6 +30,9 @@
   /* THAT'S ALL THE SETUP I NEED FOR RESPONSIVE SKROLLR */
 
   window.onload = function(){
+    document.body.className = "shownContent";
+    document.getElementsByClassName("loaderCont")[0].style.display = "none";
+    clearTimeout(loadTimer);
     setTimeout(function(){
       document.getElementsByClassName("monitor")[0].className = "monitor";
       document.getElementsByClassName("keyboard")[0].className = "keyboard";
@@ -88,5 +91,34 @@
   }
 
   setTimeout(changeMessageCount, 2000);
+
+  /* Loading Text */
+  var text = ["Writing the code", "Getting all the images", "Combining them all", "Just a sec..."],
+      sentenceCount = 0,
+      textCount = 0,
+      dir = 1,
+      divText = document.getElementsByClassName("loadingText")[0],
+      loadTimer;
+
+  function loadText(){
+    divText.innerHTML = text[sentenceCount].slice(0, textCount);
+
+    textCount += dir;
+
+    if(textCount == -1 || textCount == text[sentenceCount].length + 1){
+      dir = -dir;
+
+      if(textCount == -1) {
+        if(sentenceCount < text.length - 1)
+          ++sentenceCount;
+      }
+
+      textCount += dir;
+    }
+
+    loadTimer = setTimeout(loadText, 100);
+  }
+
+  loadTimer = setTimeout(loadText, 100);
 
 })();

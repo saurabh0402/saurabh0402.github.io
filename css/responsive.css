@@ -233,6 +233,14 @@
 	.skillDetails {
 		font-size: 1em;
 	}
+
+	.loaderCont {
+		padding: 40% 20px;
+	}
+
+	.loadingTextCont {
+		font-size: 2em;
+	}
 }
 
 @media (max-height: 550px) {

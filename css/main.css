@@ -22,6 +22,10 @@ body {
 	background-color: rgb(0, 77, 102);
 }
 
+body.hiddenContent {
+	overflow: hidden;
+}
+
 .cont {
 	width: 100%;
 	height: 100%;
@@ -346,7 +350,7 @@ body {
 .skillTitle {
 	font-family: champagne;
 	font-weight: bold;
-	color: rgb(0,77,102);
+	color: rgb(25,77,51);
 	font-size: 2em;
 	margin: 10% 0px 5% 0px;
 }
@@ -703,19 +707,31 @@ body {
 	color: rgba(255,255,255,0.5);
 }
 
-/*
-	TEMP CSS
-*/
+/* LOADING BAR */
 
-.notice {
-	font-family: champagne;
-	color: white;
-	font-size: 5em;
+.loaderCont {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0, 102, 102);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+	text-align: center;
+	padding: 20% 20px;
 }
 
-.smiley {
+.loadingTextCont {
+	font-family: champagne;
+	font-size: 5em;
+	height: 1em;
 	display: inline-block;
-	-webkit-transform: rotate(90deg);
-	-moz-transform: rotate(90deg);
-	transform: rotate(90deg);
+}
+
+.loadingText {
+	height: 100%;
+	display: inline-block;
+	padding: 0px 3px;
+	border-right: 1px solid black;
+	color: rgba(0,0,0,0.6);
 }
