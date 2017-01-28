@@ -1,4 +1,8 @@
 @media(max-width: 1100px) {
+	body {
+		background-color: rgb(25,77,51);
+	}
+	
 	.monitor, .keyboard, .earphone, .docs {
 		display: none;
 	}
@@ -66,10 +70,6 @@
 }
 
 @media(max-width: 768px) {
-	body {
-		background-color: background-color: rgb(0, 77, 102);
-	}
-
 	.mainTitle {
 		font-size: 7em;
 	}
