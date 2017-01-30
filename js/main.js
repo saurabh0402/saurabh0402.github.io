@@ -48,7 +48,7 @@
 
   /* The project page slide show */
 
-  let active = 0,
+  var active = 0,
       elems = document.getElementsByClassName("projectContent"),
       titleText = ["YouTube Downloader", "QandA", "Portfolio", "Hill'ffair"],
       activeTab = document.getElementsByClassName("active")[0];
@@ -86,7 +86,7 @@
 
   /* Contact page */
 
-  let count = 0;
+  var count = 0;
   function changeMessageCount(){
     ++count;
     document.getElementsByClassName("mailCount")[0].innerHTML = count;
