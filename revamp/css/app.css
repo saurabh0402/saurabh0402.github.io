@@ -54,10 +54,14 @@ html, body {
 	display: inline-block;
 }
 
-#rect1028 {
+#rect937 {
 	transition: all 0.2s;
 }
 
-#rect1030 {
-	transition: all 0.2s;
+#rect939 {
+	transition: all 0.5s;
+}
+
+#path981 {
+	transition: d 0s, transform 0s;
 }
