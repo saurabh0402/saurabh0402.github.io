@@ -27,25 +27,21 @@ html, body {
 }
 
 .landing {
-	background-color: rgba(0,134,179,1);
+	background-color: rgba(33,120,68,1);
 }
 
 .study-details {
-	background-color: rgba(153,0,0,1);
+	background-color: rgba(147,31,31,1);
+}
+
+.skills {
+	background-color: rgba(0,143,179,1);
 }
 
 .left {
 	width: 50%;
 	height: 100%;
 	display: inline-block;
-	padding-top: 50px;
-	text-align: center;
-	vertical-align: top;
-}
-
-.left svg {
-	height: 90%;
-	width: 100%;
 }
 
 .right {
@@ -54,14 +50,21 @@ html, body {
 	display: inline-block;
 }
 
+.image {
+	padding-top: 50px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.image svg {
+	height: 90%;
+	width: 100%;
+}
+
 #rect937 {
 	transition: all 0.2s;
 }
 
 #rect939 {
 	transition: all 0.5s;
-}
-
-#path981 {
-	transition: d 0s, transform 0s;
 }
