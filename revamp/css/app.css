@@ -12,7 +12,7 @@ html, body {
 	overflow-y: auto;
 }
 
-.cont {
+.container {
 	width: 100%;
 	height: 100%;
 	overflow-y: auto;
@@ -20,10 +20,32 @@ html, body {
 	position: relative;
 }
 
-.container {
-	min-height: 400px;
-	width: 100%;
+.image-cont {
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	width: 40%;
 	height: 100%;
+	z-index: 1;
+	padding: 50px 0px;
+	text-align: center;
+}
+
+.image-cont svg {
+	height: 100%;
+	width: 80%;
+}
+
+.cont {
+	min-height: 100%;
+}
+
+#rect937 {
+	transition: all 0.2s;
+}
+
+#rect939 {
+	transition: all 0.5s;
 }
 
 .landing {
@@ -36,35 +58,4 @@ html, body {
 
 .skills {
 	background-color: rgba(0,143,179,1);
-}
-
-.left {
-	width: 50%;
-	height: 100%;
-	display: inline-block;
-}
-
-.right {
-	width: 50%;
-	height: 100%;
-	display: inline-block;
-}
-
-.image {
-	padding-top: 50px;
-	text-align: center;
-	vertical-align: top;
-}
-
-.image svg {
-	height: 90%;
-	width: 100%;
-}
-
-#rect937 {
-	transition: all 0.2s;
-}
-
-#rect939 {
-	transition: all 0.5s;
 }
