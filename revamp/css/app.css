@@ -197,7 +197,7 @@ html, body {
  * * * * * * * * * * * * */
 
 .skills {
-	background-color: rgba(0,143,179,1);
+	background-color: rgba(0,102,128,1);
 	min-height: 100%;
 }
 
@@ -256,7 +256,7 @@ html, body {
 
 .skill-box-inner {
 	width: 70%;
-	background-color: rgba(0, 122, 153, 1);
+	background-color: rgba(0, 82, 102, 1);
 	height: 16px;
 }
 
@@ -349,6 +349,8 @@ html, body {
 	font-size: 1.2em;
 	cursor: pointer;
 	position: relative;
+	display: inline-block;
+	text-decoration: none;
 }
 
 .resume-text {
