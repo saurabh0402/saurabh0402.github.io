@@ -18,8 +18,16 @@
 		height: 300px;
 	}
 
+	.a-detail-image {
+		text-align: left;
+	}
+
+	.a-detail {
+		padding: 10px;
+	}
+
 	.landing {
-		width: auto;
+		min-height: 100%;
 		padding-bottom: 30px;
 	}
 
@@ -48,5 +56,10 @@
 
 	.contact-text-content {
 		width: 100%;
+		padding: 40px 20px;
+	}
+
+	.skill-box-outer {
+		width: 70%;
 	}
 }
