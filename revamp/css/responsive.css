@@ -1,0 +1,51 @@
+@media(max-width: 768px){
+	body {
+		font-size: 12px;
+	}
+	
+	.cont {
+		height: auto;
+	}
+
+	.image-cont {
+		width: 100%;
+		margin: 0px;
+		position: static;
+	}
+
+	.image-cont svg {
+		height: 300px;
+	}
+
+	.landing {
+		width: auto;
+		padding-bottom: 30px;
+	}
+
+	.landing-text-content {
+		transform: none;
+		width: 100%
+	}
+
+	.scrollDown {
+		display: none;
+	}
+
+	.study-text-content {
+		width: 100%;
+		padding: 20px;
+	}
+
+	.skills-text-content {
+		width: 100%;
+	}
+
+	.projects-text-content {
+		width: 100%;
+		padding: 20px;
+	}
+
+	.contact-text-content {
+		width: 100%;
+	}
+}
