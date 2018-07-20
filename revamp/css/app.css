@@ -1,14 +1,4 @@
 @font-face {
-	font-family: roboto;
-	src: url('../fonts/Roboto-Regular.ttf');
-}
-
-@font-face {
-	font-family: faradisa;
-	src: url('../fonts/Faradisa.ttf');
-}
-
-@font-face {
 	font-family: champagne;
 	src: url('../fonts/Champagne & Limousines Bold.ttf');
 }
@@ -276,7 +266,7 @@ html, body {
  * * * * * * * * * * * * */
 
 .projects {
-	background-color: rgba(140,161,166,1);
+	background-color: rgba(108,83,103,1);
 	min-height: 100%;
 }
 
@@ -302,4 +292,105 @@ html, body {
 .a-detail-image img {
 	width: 90%;
 	border: 2px solid rgba(255,255,255,0.5);
+}
+
+
+/* * * * * * * * * * * * *
+ *     CONTACTS PAGE     *
+ * * * * * * * * * * * * */
+
+.contact {
+	min-height: 100%;
+	background-color: rgba(140,161,166,1);
+}
+
+.contact .image-cont {
+	right: 0px;
+}
+
+.contact-text-content {
+	font-family: champagne;
+	display: inline-block;
+	padding: 40px;
+	width: 50%;
+	text-align: center;
+}
+
+.contact-list {
+	margin-bottom: 30px;
+	color: white;
+	font-size: 1.2em;
+	display: inline-block;
+	text-align: left;
+}
+
+.contact-list i {
+	margin-right: 20px;
+}
+
+.a-contact {
+	padding: 10px 0px;
+}
+
+.a-contact a {
+	color: white;
+	text-decoration: none;
+}
+
+.a-contact a:hover {
+	text-decoration: underline;
+}
+
+.resume {
+	background: none;
+	padding: 10px 20px;
+	border: 2px solid white;
+	font-family: champagne;
+	font-size: 1.2em;
+	cursor: pointer;
+	position: relative;
+}
+
+.resume-text {
+	position: relative;
+	z-index: 1;
+	color: white;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.resume-background {
+	background-color: white;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0%;
+	height: 100%;
+	z-index: 0;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	transition: width 0.3s;
+}
+
+.resume:hover .resume-background {
+	width: 100%;
+}
+
+.resume:hover .resume-text {
+	color: rgba(140,161,166,1);
+}
+
+.footer {
+	padding: 20px;
+	text-align: center;
+	background-color: rgba(55,69,73,1);
+	color: white;
+	font-family: champagne;
+	font-size: 1em;
+}
+
+.footer i {
+	margin: 0px 5px;
+	color: rgba(204,0,0,1);
 }
