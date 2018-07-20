@@ -72,6 +72,54 @@ html, body {
 	border-bottom: 2px solid rgba(255,255,255,0.4);*/
 }
 
+.a-detail {
+	padding: 20px;
+	font-family: champagne;
+	position: relative;
+}
+
+.a-detail .a-detail-icon {
+	width: 20%;
+	text-align: center;
+	display: inline-block;
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	top: 20px;
+}
+
+.a-detail .a-detail-cont {
+	width: 100%;
+	padding-left: 20%;
+}
+
+.a-detail .a-detail-title {
+	font-size: 1.4em;
+	color: white;
+}
+
+.a-detail .a-detail-big {
+	font-size: 1em;
+	margin-top: 10px;
+	color: rgba(255,255,255,0.8);
+}
+
+.a-detail .a-detail-big a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+}
+
+.a-detail .a-detail-small a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+}
+
+.a-detail .a-detail-small {
+	font-size: 1em;
+	margin-top: 5px;
+	color: rgba(255,255,255,0.8);
+}
+
 /* * * * * * * * * * * * *
  *      LANDING PAGE     *
  * * * * * * * * * * * * */
@@ -154,53 +202,12 @@ html, body {
 	padding-left: 50%;
 }
 
-.a-study {
-	padding: 20px;
-	font-family: champagne;
-	position: relative;
-}
-
-.a-study .study-icon {
-	width: 20%;
-	text-align: center;
-	display: inline-block;
-	font-size: 2em;
-	color: white;
-	position: absolute;
-	top: 20px;
-}
-
-.a-study .study-details {
-	width: 100%;
-	padding-left: 20%;
-}
-
-.a-study .study-title {
-	font-size: 1.4em;
-	color: white;
-}
-
-.a-study .study-school {
-	font-size: 1em;
-	margin-top: 10px;
-	color: rgba(255,255,255,0.8);
-}
-
-.a-study .study-other {
-	font-size: 1em;
-	margin-top: 5px;
-	color: rgba(255,255,255,0.8);
-}
-
 /* * * * * * * * * * * * *
  *      SKILLA PAGE      *
  * * * * * * * * * * * * */
 
 .skills {
 	background-color: rgba(0,143,179,1);
-}
-
-.skills {
 	min-height: 100%;
 }
 
@@ -261,4 +268,38 @@ html, body {
 	width: 70%;
 	background-color: rgba(0, 122, 153, 1);
 	height: 16px;
+}
+
+
+/* * * * * * * * * * * * *
+ *      PROJECTS PAGE     *
+ * * * * * * * * * * * * */
+
+.projects {
+	background-color: rgba(140,161,166,1);
+	min-height: 100%;
+}
+
+.projects-text-content {
+	font-family: champagne;
+	display: inline-block;
+	padding: 40px;
+	width: 100%;
+	padding-left: 50%;
+}
+
+.experience-list {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid rgba(255,255,255,0.5);
+}
+
+.a-detail-image {
+	text-align: center;
+	padding: 15px 0px;
+}
+
+.a-detail-image img {
+	width: 90%;
+	border: 2px solid rgba(255,255,255,0.5);
 }
