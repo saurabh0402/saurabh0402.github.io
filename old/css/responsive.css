@@ -1,0 +1,254 @@
+@media(max-width: 1100px) {
+	body {
+		background-color: rgb(25,77,51);
+	}
+	
+	.monitor, .keyboard, .earphone, .docs {
+		display: none;
+	}
+
+	.college img {
+		display: none;
+	}
+
+	.secondPageCont {
+		text-align: center;
+		height: auto;
+	}
+
+	.college img {
+		display: none;
+	}
+
+	.college {
+		position: relative;
+		top: 0px;
+		width: 100%;
+	}
+
+	.details {
+		position: relative;
+		left: 0px;
+		top: 0px;
+		display: inline-block;
+		height: auto;
+		width: 70%;
+		padding-bottom: 40px;
+	}
+
+	.thirdPageContent {
+		position: relative;top: 0px;
+	}
+
+	.pageName {
+		color: rgb(230, 230, 230);
+	}
+
+	.tab .aTab.active {
+		width: 25%;
+	}
+
+	.linkField img {
+		height: 80%;
+	}
+
+	.tab {
+		padding: 5px 0px 0px 10px;
+	}
+
+	.tab .aTab {
+		font-size: 0.7em;
+	}
+
+	.skillsTop {
+		height: 50%;
+	}
+
+	.skillsTitle {
+		height: 3em;
+	}
+}
+
+@media(max-width: 768px) {
+	.mainTitle {
+		font-size: 7em;
+	}
+
+	.notice {
+		font-size: 3em;
+	}
+
+	.details {
+		width: 90%;
+	}
+
+	.pageName {
+		font-size: 1em;
+	}
+
+	.aCourse {
+		padding: 0px;
+	}
+
+	.aCourse .image {
+		display: none;
+	}
+
+	.aCourse .text.left, .aCourse .text.right {
+		text-align: left;
+	}
+
+	.details .courseName {
+		font-size: 1.2em;
+	}
+
+	.schoolName, .major, .marks, .year {
+		font-size: 0.8em;
+	}
+
+	.mobImg {
+		display: inline-block;
+	}
+
+	.compImg, .comp {
+		display: none;
+	}
+
+	.screen {
+		border-radius: 0px;
+	}
+
+	.mobile {
+		display: inline-block;
+	}
+
+	.mobileTop {
+		width: 100%;
+		z-index: 5;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+
+	.mobileBottom {
+		position: absolute;
+		bottom: 0px;
+		z-index: 5;
+		width: 100%;
+		left: 0px;
+	}
+
+	.contentLoc {
+		height: 100%;
+		top: -5px;
+	}
+
+	.projectContent {
+		height: 100%;
+	}
+
+	.projectContent img {
+		height: 98%;
+	}
+
+	.screen {
+		width: 70%;
+		height: 70%;
+		left: 15%;
+		top: 15%;
+	}
+
+	.nextSlide {
+		width: 15%;
+		right: 0px;
+	}
+
+	.previousSlide {
+		width: 15%;
+		left: 0px;
+	}
+
+	.nextSlide img, .previousSlide img {
+		width: 60%;
+		left: 20%;
+	}
+
+	.nextSlide img:hover {
+		width: 70%;
+	}
+
+	.previousSlide img:hover {
+		width: 70%;
+	}
+
+	.screen {
+		border: 1px solid black;
+	}
+
+	.contactBottom img {
+		width: 15%;
+		margin: 5px 15px;
+	}
+
+	.thirdPageCont {
+		height: auto;
+		position: relative;
+		padding: 100px 0px 0px 0px;
+	}
+
+	.skillsTop {
+		height: auto;
+	}
+
+	.skillsTop img {
+		width: 40%;
+		height: auto;
+	}
+
+	.skillsBottom {
+		height: auto;
+	}
+
+	.skillsTitle {
+		font-size: 2em;
+	}
+
+	.copyright {
+		text-align: center;
+		width: 100%;
+	}
+
+	.skillset {
+		width: 70%;
+		margin: 40px;
+		position: relative;
+		min-height: 220px;
+	}
+
+	.pin {
+		top: -13%;
+	}
+
+	.skillTitle {
+		font-size: 1.5em;
+		margin: 8% 0px 3% 0px;
+	}
+
+	.skillDetails {
+		font-size: 1em;
+	}
+
+	.loaderCont {
+		padding: 40% 20px;
+	}
+
+	.loadingTextCont {
+		font-size: 2em;
+	}
+}
+
+@media (max-height: 550px) {
+	.mailImg {
+		display: none;
+	}
+}
