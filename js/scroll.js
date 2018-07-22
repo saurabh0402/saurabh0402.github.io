@@ -3,8 +3,6 @@
 	let resizeId;
 
 	document.getElementsByClassName('container')[0].addEventListener('scroll', function(){
-		//console.log("In!");
-		//console.log(this.scrollTop);
 		[].forEach.call(document.getElementsByClassName('image-cont'), (e, i) => {
 			if(i == 0){
 				let t = conts[i];
@@ -17,7 +15,6 @@
 				let t = conts[i], u = conts[i-1];
 				if(this.scrollTop > u.bottom - window.innerHeight){
 					if(this.scrollTop > t.top && this.scrollTop <= t.bottom - window.innerHeight){
-						console.log("In!");
 						e.style.top = this.scrollTop + "px";
 					}
 				}	
