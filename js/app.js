@@ -54,4 +54,9 @@
 			cur = maxScroll;
 	}
 
+	window.addEventListener('load', function(){
+		setTimeout(function(){
+			document.getElementsByClassName('preloader')[0].className = "preloader loaded";
+		}, 1500);
+	});
 })();
