@@ -12,10 +12,10 @@
 				rating: 85
 			}, {
 				name: 'Node.js',
-				rating: 65
+				rating: 75
 			}, {
 				name: 'React.js',
-				rating: 50
+				rating: 40
 			}]
 		}, {
 			title: 'Languages',
@@ -36,7 +36,7 @@
 				rating: 50
 			}, {
 				name: 'SQL',
-				rating: 60
+				rating: 70
 			}, {
 				name: 'Git',
 				rating: 40
