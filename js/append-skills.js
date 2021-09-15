@@ -16,6 +16,10 @@
           rating: 75,
         },
         {
+          name: 'TypeScript',
+          rating: 50,
+        },
+        {
           name: 'Node.js',
           rating: 75,
         },
