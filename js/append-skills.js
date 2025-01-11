@@ -13,19 +13,19 @@
         },
         {
           name: 'JavaScript',
-          rating: 75,
+          rating: 85,
         },
         {
           name: 'TypeScript',
-          rating: 50,
+          rating: 70,
         },
         {
           name: 'Node.js',
-          rating: 75,
+          rating: 85,
         },
         {
           name: 'React.js',
-          rating: 70,
+          rating: 80,
         },
       ],
     },
@@ -34,7 +34,7 @@
       list: [
         {
           name: 'JavaScript',
-          rating: 75,
+          rating: 85,
         },
         {
           name: 'Python',
@@ -51,19 +51,19 @@
         },
         {
           name: 'Git',
-          rating: 40,
+          rating: 70,
         },
         {
           name: 'Docker',
-          rating: 50,
+          rating: 70,
         },
         {
           name: 'Kubernetes',
-          rating: 30,
+          rating: 80,
         },
         {
-          name: 'Jest',
-          rating: 40,
+          name: 'AWS',
+          rating: 50,
         },
         {
           name: 'Linux',
